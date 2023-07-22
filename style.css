@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+html{
+  font-size:  62.5%;
+}
+body{
+    background-color: #ffaa00;
+    overflow: hidden;
+}
+header{
+    min-height:10vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffaa00;
+}
+#form{
+    position: relative;
+min-height: 90vh;
+background-color: #ffff3ff3;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+}
+#form h1{
+    font-size: 4.0rem;
+    transform:translateY(-20rem);
+}
+input,button{
+    transform:translateY(-20rem);
+    padding: 0.8rem;
+    margin: 1rem;
+
+}
+
+.renderContainer{
+    position: absolute;
+    top: 35rem;
+    left: 15rem;
+
+    border: 1px sold black;
+    background-color: rgb(255, 242, 63,0.8);
+}
+
+.listItem{
+    font-size: 5.0rem;
+    color: green;
+}
